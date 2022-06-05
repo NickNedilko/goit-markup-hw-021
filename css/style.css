@@ -1,0 +1,131 @@
+/* Общие стили страницы */
+body{
+    color:#757575;
+    font-family: Roboto;
+}
+
+.link{
+    text-decoration: none;
+}
+.link:hover, .link:focus{
+    color: #2196F3;
+}
+/* .list-qualities, .list-team, .site-nav, .list-images{
+    list-style-type: none;} */
+
+.list
+{list-style-type: none;
+}
+/* Стилизация Хедера */
+.logo{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+
+.logo-accient{
+    color: #212121;
+}
+.site-nav, .header-contact{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color:#212121
+}
+
+/* Стилизация основы страницы */
+.main-section{
+    background: #2F303A;
+   
+    height: 600px;
+
+}
+.main-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.button{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+cursor: pointer;
+
+color: #FFFFFF;
+background: #2196F3;
+}
+
+.section-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+.list-qualities-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+.list-team-title{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+/* Стилизация футера */
+footer{
+    background: #2F303A;
+
+}
+.adress{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.171;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+
+}
+.footer-contact{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.list-footer .logo-accient{
+    color:#FFFFFF;
+
+    /* Стилизация страницы Портфолио */
