@@ -2,6 +2,7 @@
 body{
     color:#757575;
     font-family: Roboto;
+    background: #F5F4FA;;
 }
 
 .link{
@@ -10,8 +11,6 @@ body{
 .link:hover, .link:focus{
     color: #2196F3;
 }
-/* .list-qualities, .list-team, .site-nav, .list-images{
-    list-style-type: none;} */
 
 .list
 {list-style-type: none;
@@ -86,6 +85,11 @@ text-transform: uppercase;
 
 color: #212121;
 }
+/* Стилизация секции наша команда */
+.section-team{
+  color: #F5F4FA;
+}
+
 .list-team-title{
 font-weight: 500;
 font-size: 16px;
@@ -127,5 +131,33 @@ footer{
 
 .list-footer .logo-accient{
     color:#FFFFFF;
+}
 
     /* Стилизация страницы Портфолио */
+.portfolio-buttons:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.portfolio-buttons{
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+.list-example-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+.list-example-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
